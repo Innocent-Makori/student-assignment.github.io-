@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Assignment - Payment</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h1>Payment for Assignment</h1>
+    <form action="/payment" method="POST">
+        <label for="amount">Amount (Ksh):</label>
+        <input type="number" id="amount" name="amount" required>
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" placeholder="254712345678" required>
+        <button type="submit">Pay Now</button>
+    </form>
+</body>
+</html>
